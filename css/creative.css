@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Creative v5.1.8 (https://startbootstrap.com/template-overviews/creative)
- * Copyright 2013-2019 Start Bootstrap
+ * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
  */
 
@@ -10,18 +10,6 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
- 
-#resume-buttons {
-  display: flex;
-}
-
-i.a-hover.a--hover.something.something-something{
-  transition: .5s;
-}
-i.a-hover.a--hover.something.something-something:hover{
-  text-shadow: -1.5px -1.5px 0px black;
-}
-
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
