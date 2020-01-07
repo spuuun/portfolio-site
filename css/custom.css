@@ -1,62 +1,6 @@
-.a-hover.a--hover.something.something-something:hover {
-    /* background-color: deeppink; */
-    transform: scaleX(1.1);
-    transform: scaleY(1.1);
-    box-shadow: 1px 3px;
-    transform: translate(-1px, -1px);
-    border-radius: 2px;
+/*!
+ * Start Bootstrap - Creative v5.1.8 (https://startbootstrap.com/template-overviews/creative)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
+ */
 
-
-    /* transition: background-color .5s, font-size .5s; */
-    /* animation-name: contacts;
-    animation-duration: 1s;
-    animation-timing-function: ease; */
-}
-
-/* @keyframes contacts {
-    from {color: #6c757d; size: 4em;}
-    to {color: deeppink; size: 5em;}
-}
-
-#example1:hover {
-    box-shadow: 1px 3px;
-    transform: translate(-1px, -1px)
-    }
-    
-  #example1 {
-    border: 1px solid;
-    padding: 10px;
-  
-  } */
-
-/*
-#54b373
-#86d594
-#1a162f
-#3a8773
-#e66675
-#e49086
-#daff0f
-
-
-#929743
-#93af41
-#181238
-#fed76e
-#fa986b
-#c6b7a0
-#eeadd5
-#b3d7e7
-#f9fbed
-
-
-#25c2b1
-#ef4428
-#fbeccb
-#087e9a
-#2e2423
-
-
-
-
-*/
