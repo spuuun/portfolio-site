@@ -1,0 +1,13 @@
+@import "bootstrap/scss/functions"; 
+@import "bootstrap/scss/variables";
+
+$theme-colors: (
+  primary: #54b373,
+  secondary: #3a8773,
+  success: #e66675,
+  info: #daff0f,
+  warning: #007bff,
+  danger: #ef4428,
+  light: #e49086,
+  dark: #1a162f
+);

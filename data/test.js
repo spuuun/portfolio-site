@@ -1,0 +1,107 @@
+// var util = require("util");
+// console.log("TESTING TESTING 123")
+
+// var techs = [
+//     {
+//         "id": 1,
+//         "name": "Javascript",
+//         "image": "javascript.png",
+//         "link": "https://www.javascript.com/"
+//     },
+//     {
+//         "id": 2,
+//         "name": "React JS",
+//         "image": "reactJS.png",
+//         "link": "https://reactjs.org/"
+//     },
+//     {
+//         "id": 3,
+//         "name": "Git",
+//         "image": "git.png",
+//         "link": "https://git-scm.com"
+//     },
+//     {
+//         "id": 4,
+//         "name": "Github",
+//         "image": "github.png",
+//         "link": "https://github.com/"
+//     },
+//     {
+//         "id": 5,
+//         "name": "HTML5",
+//         "image": "html5.png",
+//         "link": "https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"
+//     },
+//     {
+//         "id": 6,
+//         "name": "CSS3",
+//         "image": "css3.png",
+//         "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3"
+//     },
+//     {
+//         "id": 7,
+//         "name": "Webpack",
+//         "image": "webpack.png",
+//         "link": "https://webpack.js.org"
+//     },
+//     {
+//         "id": 8,
+//         "name": "NPM",
+//         "image": "npm.png",
+//         "link": "https://www.npmjs.com/"
+//     },
+//     {
+//         "id": 9,
+//         "name": "SQL Server",
+//         "image": "sqlserver.png",
+//         "link": "https://www.microsoft.com/en-us/sql-server/sql-server-editions-express"
+//     },
+//     {
+//         "id": 10,
+//         "name": "Visual Studio Code",
+//         "image": "vsc.png",
+//         "link": "https://code.visualstudio.com/"
+//     },
+//     {
+//         "id": 11,
+//         "name": "C#",
+//         "image": "csharp.png",
+//         "link": "https://docs.microsoft.com/en-us/dotnet/csharp/"
+//     },
+//     {
+//         "id": 12,
+//         "name": ".NET Core",
+//         "image": "dotnetcore.png",
+//         "link": "https://www.microsoft.com/net/"
+//     },
+//     {
+//         "id": 13,
+//         "name": "Visual Studio",
+//         "image": "visualstudio.png",
+//         "link": "https://www.visualstudio.com/vs/"
+//     },
+//     {
+//         "id": 14,
+//         "name": ".Net MVC",
+//         "image": "aspnetMVC.png",
+//         "link": "https://www.asp.net/mvc"
+//     }
+// ]
+
+// console.log(techs)
+
+// for (var i = 0; i < techs.length; i++) {
+//     document.getElementById("techs").innerHTML +=
+//         `<div class="col-sm-2 technologies">
+//      <center><a class="tech-name text-info" href="${techs.link}" target="_blank"><img class="techs" src="/techs/${techs.image}" alt="${techs.name}" data-toggle="tooltip" data-placement="top" title="${techs.name}"><p>${techs.name}</p></a><br>
+//      </center>
+//   </div>`;
+// }
+
+// techs.forEach(techs => {
+//     document.getElementById("techs").innerHTML +=
+//         `<div class="col-sm-2 technologies">
+//          <center><a class="tech-name text-info" href="${techs.link}" target="_blank"><img class="techs" src="/techs/${techs.image}" alt="${techs.name}" data-toggle="tooltip" data-placement="top" title="${techs.name}"><p>${techs.name}</p></a><br>
+//          </center>
+//       </div>`;
+// });
