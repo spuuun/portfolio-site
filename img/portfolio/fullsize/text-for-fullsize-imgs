@@ -1,0 +1,12 @@
+    <div class="small text-white-50 mt-3 brief-description">
+                  <p>want to know the temperature of my oven in REAL TIME? well, you're in luck!</p>
+                  <p>i built this little web application using a combination of arduno, r-pi, node.js, react, chart.js,
+                    websockets, cloud storage, and more...</p>
+                  <p>now you never have to waste your agonizing over the question "did matt leave his oven on?"</p>
+                </div>
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Need to create 3 "fullsize images" that include:
+    -background photo for the project
+    -category and title of project
+    -expanded description and link to github repo
