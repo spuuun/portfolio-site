@@ -1,2 +1,6 @@
 node_modules
 bower_components
+DS_Store
+.DS_Store
+img/portfolio/.DS_Store
+TODO.md

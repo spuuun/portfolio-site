@@ -39,20 +39,32 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
+// BUGGY TROUBLESOME CAROSEL INVOKING FUNCTION
   // Magnific popup calls
-  $('#portfolio').magnificPopup({
-    delegate: 'a',
-    type: 'image',
-    tLoading: 'Loading image #%curr%...',
-    mainClass: 'mfp-img-mobile',
-    gallery: {
-      enabled: true,
-      navigateByImgClick: true,
-      preload: [0, 1]
-    },
-    image: {
-      tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
-    }
-  });
+  // $('#portfolio').magnificPopup({
+  //   delegate: 'a',
+  //   type: 'image',
+  //   tLoading: 'Loading image #%curr%...',
+  //   mainClass: 'mfp-img-mobile',
+  //   gallery: {
+  //     enabled: true,
+  //     navigateByImgClick: true,
+  //     preload: [0, 1]
+  //   },
+  //   image: {
+  //     tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
+  //   }
+  // });
+
+// ATTEMPT TO CHANGE HEADSHOT IMG SRC ON HOVER
+    // $('#headshot').hover(function () {
+    //     $(this).find('img').attr('src', function (i, src) {
+    //         return src.replace('./img/portfolio/headshots/professional-headshot.jpg', './img/`portfolio/`headshots/`COPY-chisel-computer-headshot.jpg')
+    //     })
+    // }, function () {
+    //     $(this).find('img').attr('src', function (i, src) {
+    //         return src.replace('./img/`portfolio/`headshots/`COPY-chisel-computer-headshot.jpg', './img/portfolio/headshots/professional-headshot.jpg')
+    //     })
+    // })
 
 })(jQuery); // End of use strict

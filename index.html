@@ -12,8 +12,6 @@
   <title>Matthew Ross</title>
   <!-- <link rel="icon" type="image/ico" href="#" /> -->
 
-
-
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -21,7 +19,6 @@
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
-
 
   <!-- 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -106,7 +103,7 @@
       <!-- <h2 class="text-white mt-0">About Me</h2> -->
       <div class="row justify-content-center">
         <div class="col col-lg-6 text-center">
-          <img src="./img/portfolio/headshots/professional-headshot.jpg" class="img img-fluid"
+          <img id="headshot" src="./img/portfolio/headshots/professional-headshot.jpg" class="img img-fluid mb-4"
             style="border-radius: 5%; height: 40em;" alt="">
           <!-- <hr class="divider light my-4"> -->
         </div>
@@ -119,10 +116,8 @@
             managed to write enough code to control a small DC motor, and have been hooked ever since. I am energized by
             the unending opportunity to be creative, to continually learn new things and technologies, and to build
             things that serve to connect and help people. </p>
-
-          <a id="animated-button" class="btn btn-light btn-xl js-scroll-trigger" href="#services"><span
-              id="animated-span">Read on,
-              reader!</span></a>
+          <a id="animated-button" class="btn btn-light btn-xl js-scroll-trigger mb-4" href="#services"><span
+              id="animated-span">Read on!</span></a>
         </div>
       </div>
     </div>
@@ -272,11 +267,15 @@
 
   <!-- Portfolio Section -->
   <section id="portfolio">
-    <div class="container-fluid p-0 bg-success">
+    <div class="container-fluid pr-0 pl-0 pb-0 pt-2 bg-success">
+      <hr class="divider my-4">
+      <h2 class="text-center mt-0">Portfolio</h2>
+      <hr class="divider my-4">
+      <p class="text-center">hover for more details - click to view source code</p>
       <div class=" row no-gutters">
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
+          <a class="portfolio-box" href="https://github.com/spuuun/Capstone_GoPlaces" target="_blank">
+            <img class="img-fluid" src="img/1.jpg" alt="">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
                 Back-End Capstone
@@ -284,16 +283,26 @@
               <div class="project-name">
                 Going Places!
               </div>
-              <div class="w-100">
-                <a class="text-dark" href="https://github.com/spuuun/Capstone_GoPlaces"><i
-                    class="mr-3 fab fa-github"></i>view code</a>
+              <div>
+                <small>
+                  <p><em>Going Places!</em> lets users create a travelogue of their experiences in real time - adding
+                    locations, photos, and descriptions along the way</p>
+
+                  <p>share your journeys for others to find and enjoy, or keep them as a scrapbook for yourself</p>
+
+                  <p>there are inifinite hidden and beautiful places in the world before us - <em>Go! Discover!</em></p>
+                </small>
               </div>
             </div>
+            <!-- <div class="w-100">
+              <a class="text-dark" href="https://github.com/spuuun/Capstone_GoPlaces"><i
+                  class="mr-3 fab fa-github"></i>view code</a>
+            </div> -->
           </a>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
+          <a class="portfolio-box" href="https://github.com/spuuun/capstone-means-of-production" target="_blank">
+            <img class="img-fluid" src="img/2.jpg" alt="">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
                 Front-End Capstone
@@ -301,16 +310,30 @@
               <div class="project-name">
                 Means of Production
               </div>
-              <div class="w-100">
-                <a class="text-dark" href="https://github.com/spuuun/capstone-means-of-production"><i
-                    class="mr-3 fab fa-github"></i>view code</a>
+              <div>
+                <small>
+                  <p>a distributed tool sharing library where users can lend and borrow tools and track the status of
+                    their
+                    loans</p>
+
+                  <p>inspired by brick and mortar tool libraries - especially The Station North Tool
+                    Library located in Baltimore</p>
+
+                  <p>the dream is for this application to empower tinkerers and enthusiasts to explore,
+                    and to help the DIY handyperson affordably build and take care of their home/appliances</p>
+                </small>
               </div>
             </div>
+            <!-- <div class="w-100">
+              <a class="text-dark" href="https://github.com/spuuun/capstone-means-of-production"><i
+                  class="mr-3 fab fa-github"></i>view code</a>
+            </div> -->
           </a>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
+          <a style="height:25em;" class="portfolio-box" href="https://github.com/spuuun/did-I-leave-the-oven-on"
+            target="_blank">
+            <img style="height:25em;" class="img-fluid" src="img/3.jpg" alt="">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
                 IoT Project
@@ -318,11 +341,22 @@
               <div class="project-name">
                 <em>aw CRUD. . .</em> did I leave the oven on?
               </div>
+              <div>
+                <small>
+                  <p>you ever get that sinking feeling? running late to an event, nearly there when it hits you...</p>
+
+                  <p>"did I leave the oven on???"</p>
+
+                  <p>well worry no more! <em>aw CRUD. . .</em> did I leave the oven on? is the IoT solution that makes uncertainty about your oven's temperature a thing of the past</p>
+
+                  <p>login any time from anywhere and view realtime temperature updates via simple and intuitive web interface - and rest easy</p>
+                </small>
+              </div>
             </div>
-            <div class="w-100">
+            <!-- <div class="w-100">
               <a class="text-dark" href="https://github.com/spuuun/did-I-leave-the-oven-on"><i
                   class="mr-3 fab fa-github"></i>view code</a>
-            </div>
+            </div> -->
           </a>
         </div>
       </div>
@@ -332,7 +366,9 @@
   <!-- Resume Section -->
   <section class="page-section bg-dark text-white">
     <div class="container text-center">
+      <hr class="divider my-4">
       <h2 class="mb-4">Resume</h2>
+      <hr class="divider my-4">
       <div id="resume-buttons" class="row">
         <a class="btn btn-success btn-xl mx-auto" href="/resume/MatthewRoss_Resume.pdf">View</a>
       </div>
@@ -344,6 +380,7 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8 text-center">
+          <hr class="divider my-4">
           <h2 class="mt-0">Connect</h2>
           <hr class="divider my-4">
         </div>
@@ -378,11 +415,11 @@
   </section>
 
   <!-- Footer -->
-  <footer class="bg-light py-5">
+  <!-- <footer class="bg-light py-5">
     <div class="container">
-      <div class="small text-center text-muted">Copyright &copy; 2019 - Start Bootstrap</div>
+
     </div>
-  </footer>
+  </footer> -->
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
